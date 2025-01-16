@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container2{
+width: 288px;
+border-radius: 12px;
+background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 16px;
+}
+.minor_box{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 12px;
+}
+.numbers_p{
+color: var(--Dark-Navy, #303B59);
+font-size: 18px;
+font-weight: 700;
+}
+span{
+    opacity: 0.5;
+}
+.p2{
+color: var(--Yellow, #FFB21E);
+font-size: 18px;
+font-weight: 500;
+}

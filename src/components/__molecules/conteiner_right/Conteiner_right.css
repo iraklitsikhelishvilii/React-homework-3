@@ -1,0 +1,20 @@
+.conteiner_right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.conteiner_right_h{
+    color: var(--Dark-Navy, #303B59);
+font-size: 24px;
+font-weight: 700;
+padding-left: 0;
+padding-top: 38px;
+}
+@media(max-width:740px){
+    .conteiner_right {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }   
+}
